@@ -105,6 +105,11 @@ authorized [=Applications=].
       <td>[=Authorization Registry=] for the [=Social Agent=]</td>
     </tr>
     <tr>
+      <td>hasGrantRegistry</td>
+      <td>[GrantRegistry](#classGrantRegistry)</td>
+      <td>[=Grant Registry=] for the [=Social Agent=]</td>
+    </tr>
+    <tr>
       <td>hasDataRegistry</td>
       <td>[DataRegistry](#classDataRegistry)</td>
       <td>[=Data Registry=] for the [=Social Agent=]</td>

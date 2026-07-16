@@ -1354,3 +1354,33 @@ The [=Authorization Registry=] resources MAY use any resource or subject name.
 
 The resource names for [=Access Grants=] <em class="rfc2119">SHOULD</em>
 be unpredictable.
+
+## Grant Registry ## {#grant-registry}
+
+Issue(334):
+
+A <dfn>Grant Registry</dfn> is a collection of [=Data Grants=].
+
+The [=Grant Registry=] is linked to a [=Social Agent=] via their [=Registry Set=].
+
+A [=Grant Registry=] links to any number of registered [=Data Grants=].
+
+<table class="classinfo data" align="left" id="classGrantRegistry">
+  <colgroup></colgroup>
+  <colgroup></colgroup>
+  <colgroup></colgroup>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Range</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ldp:contains</td>
+      <td>[DataGrant](interop.ttl#DataGrant)</td>
+      <td>Link to associated [=Data Grants=]</td>
+    </tr>
+  </tbody>
+</table>
