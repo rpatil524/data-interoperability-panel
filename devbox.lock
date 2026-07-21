@@ -2,71 +2,72 @@
   "lockfile_version": "1",
   "packages": {
     "bikeshed@latest": {
-      "last_modified": "2025-05-06T08:06:31Z",
-      "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#bikeshed",
+      "last_modified": "2026-06-27T07:37:20Z",
+      "resolved": "github:NixOS/nixpkgs/3d46470bb3030020f7e1361f33514854f5bfa86d#bikeshed",
       "source": "devbox-search",
-      "version": "5.1.2",
+      "version": "7.0.7",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/byk7ag1k1mxrn0k2xdik7rzln600d39h-bikeshed-5.1.2",
+              "path": "/nix/store/a58icyxsx4marmfk34ify5x9k1b9pzi7-bikeshed-7.0.7",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/x7p41gi116xfdn43qyzx61yamwyhaqxk-bikeshed-5.1.2-dist"
+              "path": "/nix/store/81clsi2648lg4pcdvxyvakybj4xyw8pa-bikeshed-7.0.7-dist"
             }
           ],
-          "store_path": "/nix/store/byk7ag1k1mxrn0k2xdik7rzln600d39h-bikeshed-5.1.2"
+          "store_path": "/nix/store/a58icyxsx4marmfk34ify5x9k1b9pzi7-bikeshed-7.0.7"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/5nwp942h6mni220dzqbcqb04mxnh6mfc-bikeshed-5.1.2",
+              "path": "/nix/store/1h8pg6z7wifywkfp6zaflp4cak87nwr2-bikeshed-7.0.7",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/jjrv0vwvnnjpd6wisb8b3xg24rxz5zwp-bikeshed-5.1.2-dist"
+              "path": "/nix/store/cqb8vdb68by49wc79bls26vxa5g6fq96-bikeshed-7.0.7-dist"
             }
           ],
-          "store_path": "/nix/store/5nwp942h6mni220dzqbcqb04mxnh6mfc-bikeshed-5.1.2"
+          "store_path": "/nix/store/1h8pg6z7wifywkfp6zaflp4cak87nwr2-bikeshed-7.0.7"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/vwh4hjpd0r9zw4fxdwjb6z1x9l39jmq9-bikeshed-5.1.2",
+              "path": "/nix/store/xw373ya70pmwlsckyx69kysbmqgbl585-bikeshed-7.0.7",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/rk3091z67f5mamqywgasm1y9ghfmyizl-bikeshed-5.1.2-dist"
+              "path": "/nix/store/m34l5yblj7yr4239m27r9mq0p8l17m45-bikeshed-7.0.7-dist"
             }
           ],
-          "store_path": "/nix/store/vwh4hjpd0r9zw4fxdwjb6z1x9l39jmq9-bikeshed-5.1.2"
+          "store_path": "/nix/store/xw373ya70pmwlsckyx69kysbmqgbl585-bikeshed-7.0.7"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/l80hk33mi0wsynwl12livkc6c3sqj0bd-bikeshed-5.1.2",
+              "path": "/nix/store/km6j3qlqm7v271b3lx8jbp3mvnl4fcdk-bikeshed-7.0.7",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/gpxy88dizvl00fj10r4dbh0qa10ham5r-bikeshed-5.1.2-dist"
+              "path": "/nix/store/nr1fcnlhjlx3wwpfypvswj9iff1lgzif-bikeshed-7.0.7-dist"
             }
           ],
-          "store_path": "/nix/store/l80hk33mi0wsynwl12livkc6c3sqj0bd-bikeshed-5.1.2"
+          "store_path": "/nix/store/km6j3qlqm7v271b3lx8jbp3mvnl4fcdk-bikeshed-7.0.7"
         }
       }
     },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D"
+      "last_modified": "2026-07-05T19:27:47Z",
+      "resolved": "github:NixOS/nixpkgs/f205b5574fd0cb7da5b702a2da51507b7f4fdd1b?lastModified=1783279667&narHash=sha256-%2FNAkDSsve%2BGNM0Bt6tleJdCGfsTlK89nPjkVOzZMo0s%3D"
     }
   }
 }

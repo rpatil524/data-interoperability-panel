@@ -67,7 +67,6 @@
       "required": [
         "accessMode",
         "dataOwner",
-        "delegationOfGrant",
         "grantedBy",
         "grantee",
         "hasDataRegistration",
