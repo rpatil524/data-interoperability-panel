@@ -34,7 +34,7 @@ Read our stated [Problems and Goals](problems-and-goals.md) for an in-depth unde
 
 ### Shape Trees
 
-* **Specification** — [Source](https://github.com/shapetrees/specification) — [Rendered](https://shapetrees.org/TR/specification/index.html)
+* **Specification** — [Source](https://github.com/shapetrees/specification) — [Rendered](https://w3id.org/shapetrees/specification/)
 * **Library** — [Source](https://github.com/shapetrees/shapetree.js)
 * **Test Suite** — [Source](https://github.com/shapetrees/test-suite)
 

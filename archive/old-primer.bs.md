@@ -1032,7 +1032,7 @@ we would need to start a path from a defined shape, e.g.,
 
 #### Clinical data Shape Tree and Shape Tree Locator
 
-The Care Plan Shape Tree resource captures the conventions for resources hierarchies of Care Plans (see <a href="https://shapetrees.org/TR/specification/#tree">specification</a>).
+The Care Plan Shape Tree resource captures the conventions for resources hierarchies of Care Plans (see <a href="https://w3id.org/shapetrees/specification/#tree">specification</a>).
 It it typically hosted on a Web site geared towards hosting standards. <span class="issue">I'm trying to set expectations about what's in the POD and what's out there on teh interwebs.</span>
 
 <figure>
@@ -1044,7 +1044,7 @@ It it typically hosted on a Web site geared towards hosting standards. <span cla
   <figcaption>simplified Care Plan Shape Tree</figcaption>
 </figure>
 
-The Shape Tree Locator resides in a POD and associates instance data with the Shape Trees that describe it (see <a href="https://shapetrees.org/TR/specification/#locator">specification</a>).
+The Shape Tree Locator resides in a POD and associates instance data with the Shape Trees that describe it (see <a href="https://w3id.org/shapetrees/specification/#locator">specification</a>).
 
 <figure>
   <pre class=include-code>
@@ -1070,7 +1070,7 @@ An authentication agent can now allow a user to set permissions on <code>A-CareP
 
 1. The HTTP headers for <code>A-CarePlan-F/A-HypoglycemiaManagement-F</code> identify that resource's Shape Tree Locator:
     <pre>
-      Link: A-HypoglycemiaManagement-F?stloc#loc rel=http://shapetrees.org/#ShapeTreeLocator
+      Link: A-HypoglycemiaManagement-F?stloc#loc rel=https://w3id.org/shapetrees/specification/#ShapeTreeLocator
     </pre>
 2. The Shape Tree Locator <code>A-HypoglycemiaManagement-F?stloc#loc</code> has the Shape Tree <code>fhirshapetree:CarePlan</code>:
     <pre class=include-code>
